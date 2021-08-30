@@ -1,0 +1,97 @@
+.container{
+  margin-top: 70px;
+  width: 97vw;
+	max-width: 480px;
+}
+input {
+  display: none;
+}
+.tabs{
+  display: flex;
+  margin-top: 10px;
+  font-size: var(--phone-text-size);
+}
+
+.tab{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--sub-color);
+  height: 54px;
+	color: var(--hover-color);
+	cursor: pointer;
+  transition: .5s;
+  user-select: none;
+}
+
+.tab:hover{
+  background: var(--hover-color);
+  color: var(--white);
+}
+
+h2 {
+  margin: 5px 0 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--main-color);
+  text-align: center;
+}
+
+.list1,
+.list2,
+.list3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  width: 250px;
+  margin: 0 auto;
+  font-size: var(--text-size);
+}
+
+.list3{
+  grid-template-columns: 1fr;
+}
+
+.list-item{
+  list-style: none;
+  color: var(--main-color);
+  text-align: center;
+}
+.tab-content1,
+.tab-content2,
+.tab-content3{
+	display: none;
+  height: 400px;
+	padding-top: 25px;
+  /* margin-top: 10px; */
+}
+
+/* .tab-content.current{
+  display: inherit;
+} */
+
+#tab1:checked ~ .tabs > .tab-link1,
+#tab2:checked ~ .tabs > .tab-link2,
+#tab3:checked ~ .tabs > .tab-link3  {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+#tab1:checked ~ .tab-content1,
+#tab2:checked ~ .tab-content2,
+#tab3:checked ~ .tab-content3{
+  display: block;
+}
+
+.tab-content1{
+  background: no-repeat center url('../images/배경_독립.png');
+}
+.tab-content2{
+  background: no-repeat center url('../images/배경_미술반.png');
+  /* background-size: contain; */
+}
+.tab-content3{
+  background: no-repeat center url('../images/배경_앱개발.png');
+}

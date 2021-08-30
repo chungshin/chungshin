@@ -1,0 +1,33 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80vw;
+  height: 100vh;
+  max-width: 400px;
+  font-size: var(--text-size);
+}
+
+.background{
+  position: fixed;
+  z-index: -1;
+  width: 90vw;
+  height: 60vh;
+  max-width: 550px;
+  background: no-repeat center url('../images/시작문구배경.png');
+  background-size: cover;
+  transition: 1.5s;
+  opacity: 1;
+}
+
+.principal--image {
+  width: 110px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    font-size: var(--phone-text-size);
+  }
+}

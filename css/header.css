@@ -1,0 +1,112 @@
+:root {
+  --header-height: 60px;
+}
+
+html {
+  position: relative;
+}
+
+input {
+  display: none;
+}
+.header {
+  position: fixed;
+  /* z-index: 12; */
+  top: 0;
+  width: 100vw;
+  min-width: 520px;
+  height: var(--header-height);
+  background-color: var(--header-color);
+  color: var(--white);
+}
+
+.header--title {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: calc(50vw - 140px);
+  width: 300px;
+  height: var(--header-height);
+  padding: 0;
+  line-height: var(--header-height);
+  background-color: transparent;
+  color: var(--white);
+  font-size: var(--header-text-size);
+  text-align: center;
+  user-select: none;
+}
+
+.header > label > i {
+  position: absolute;
+  top: 17px;
+  left: 25px;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.nav {
+  /* display: none; */
+  position: fixed;
+  z-index: 12;
+  top: 0;
+  transform: translateX(-320px);
+  width: 300px;
+  height: 100%;
+  background-color: rgba(0,0,0,.85);
+  transition: .3s;
+}
+
+.menu__title {
+  list-style: none;
+  margin: 15px 10px 10px;
+  color: var(--sub-color);
+  font-size: 18px;
+}
+
+.menu__title > a{
+  text-decoration: none;
+  color: var(--sub-color);
+}
+
+.menu__title > a:hover{
+  text-decoration: none;
+  color: rgb(253, 255, 194);
+}
+
+i {
+  width: 30px;
+}
+
+.menu__list {
+  margin-left: 32px;
+  color: #ccc;
+  font-size: 15px;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.menu__list:hover {
+  color: rgb(253, 255, 194);
+}
+.hamberger1 {
+  position: fixed;
+  z-index: 11;
+  top: 8px;
+  left: 15px;
+  cursor: pointer;
+  font-size: 28px;
+  color: var(--white);
+}
+.hamberger2 {
+  color: var(--white);
+  font-size: 28px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+/* #hamberger1:checked ~ .header >.hamberger, */
+#hamberger1:checked ~ .nav {
+  /* display: block; */
+  transform: translateX(0);
+}

@@ -1,0 +1,82 @@
+.container{
+  margin-top: 70px;
+  width: 97vw;
+	max-width: 480px;
+}
+
+.tabs{
+  display: flex;
+  font-size: var(--phone-text-size);
+}
+.tab-link{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--sub-color);
+  height: 54px;
+	color: var(--hover-color);
+	cursor: pointer;
+}
+
+.tabs .current{
+	background: var(--main-color);
+  transform: scale(1.05);
+	color: var(--white);
+  transition: .5s;
+}
+
+.tab-link:hover{
+  background: var(--hover-color);
+  color: var(--white);
+}
+
+h2 {
+  margin: 5px 0 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--main-color);
+  text-align: center;
+}
+
+.list1,
+.list2,
+.list3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  width: 250px;
+  margin: 0 auto;
+  font-size: var(--text-size);
+}
+.list3{
+  grid-template-columns: 1fr;
+}
+
+.list-item{
+  list-style: none;
+  color: var(--main-color);
+  text-align: center;
+}
+.tab-content{
+
+	display: none;
+  height: 400px;
+	padding: 15px;
+}
+
+.tab-content.current{
+  display: inherit;
+}
+
+#tab-1{
+  background: no-repeat center url('../images/배경_독립.png');
+}
+#tab-2{
+  background: no-repeat center url('../images/배경_미술반.png');
+  /* background-size: contain; */
+}
+#tab-3{
+  background: no-repeat center url('../images/배경_앱개발.png');
+}

@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #523d68;
+  --sub-color: rgba(195, 176, 216, 0.8);
+  --anchor-color: #c2b2d4;
+  --white: #fefefe;
+}
+
+body {
+  font-family: 'Noto Sans KR', 'Hind Siliguri', 'Nanum Gothic', sans-serif;
+  /* overflow: hidden; */
+  /* -ms-overflow-style: none;  */
+}
+
+/* 스크롤기능은 살리고 스크롤바 없애기 */
+::-webkit-scrollbar { display: none; } 
+
+/*특정 부분 스크롤바 없애기*/ 
+/* .box{ -ms-overflow-style: none; } 
+.box::-webkit-scrollbar{ display:none; } */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+  height: 95vh;
+}
+
+.background{
+  position: fixed;
+  z-index: -1;
+  width: 90%;
+  height: 50%;
+  max-width: 550px;
+  background: no-repeat center url('../images/시작문구배경.png');
+  background-size: cover;
+  transition: 1.5s;
+  opacity: 1;
+}
+@keyframes bgAppear {
+0%{
+  opacity: 0;
+}
+100%{
+  opacity: 1;
+}
+}
+
+.appear {
+  animation: 1.5s linear bgAppear;
+}
+
+.main--text {
+  position: absolute;
+  width: 70%;
+  max-width: 350px;
+  color: #333;
+  font-size: .85rem;
+  user-select: none;
+  transition: .4s;
+  animation: 1.5s linear bgAppear;
+}
+
+.bold--text {
+  position: absolute;
+  width: 260px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: none;
+  color: #345;
+  user-select: none;
+}
+
+.left {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+
+.logo {
+  position: absolute;
+  display: none;
+  top: calc(50vh - 150px);
+}
+
+.logo > img {
+  width: 250px;
+}
+
+.next {
+  position: absolute;
+  bottom: calc(50vh - 240px);
+  right: calc(50vw - 150px);
+  width: 80px;
+  height: 35px;
+  /* background-color: rgba(102, 51, 153, 0.2); */
+  background-color: white;
+  border-radius: 10px;
+  /* border: 1px solid var(--sub-color); */
+  border: none;
+  box-shadow: 0px 1px 2px var(--sub-color);
+  outline: none;
+  color: #751775;
+  font-size: .8rem;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+.next:hover {
+  transform: translateY(-1px);
+  background-color: rgb(227, 215, 240);
+  font-weight: 600;
+}
+
+.next:active {
+  transform: translateY(-1px);
+  background-color: rgba(102, 51, 153, 0.5);
+  color: #fff;
+  font-weight: 600;
+}
+
+

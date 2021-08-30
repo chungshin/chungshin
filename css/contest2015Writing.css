@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+  height: 95vh;
+  overflow-y: scroll;
+}
+
+input {
+  display: none;
+}
+.wrapper {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.content1,
+.content2,
+.prev,
+.next {
+  display: none;
+}
+
+#tab1:checked ~ .wrapper > .content1,
+#tab2:checked ~ .wrapper > .content2,
+#tab1:checked ~ .buttons > .next,
+#tab2:checked ~ .buttons > .prev {
+  display: block;
+}
+/* .buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} */
+
+.button{
+  width: 100px;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  color: var(--main-color);
+  font-size: 30px;
+  cursor: pointer;
+}

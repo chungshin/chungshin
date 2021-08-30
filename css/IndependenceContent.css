@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+  height: 95vh;
+  overflow-y: scroll;
+}
+
+.item {
+  padding-top: 10px;
+  text-align: center;
+  user-select: none;
+}
+
+.item > img {
+  width: 90%;
+  max-width: 600px;
+}
+
+.progress {
+  color: var(--main-color);
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.button{
+  width: 100px;
+  margin-top: -25px;
+  background-color: transparent;
+  border: none;
+  color: var(--main-color);
+  font-size: 30px;
+  cursor: pointer;
+}

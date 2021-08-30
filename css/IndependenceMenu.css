@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  margin-top: 60px;
+  width: 100vw;
+  overflow: hidden;
+}
+
+input {
+  display: none;
+}
+
+.wrapper {
+  height: 90vh;
+  padding-bottom: 100px;
+  overflow-y: scroll;
+}
+.navbar__menu {
+  /* position: fixed;
+  z-index: 1; */
+  /* top: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+  background-color: var(--main-color);
+  width: 100%;
+}
+
+.menu__item {
+  margin: 10px 0;
+  padding: 5px 10px;
+  height: 35px;
+  background-color: var(--main-color);
+  color: rgba(254, 254, 254, 0.8);
+  text-align: center;
+  user-select: none;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition:.3s;
+}
+
+#thumbnails,
+#by-graduate,
+#unknown-graduate {
+  display: none;
+}
+
+#tab1:checked ~ .navbar__menu > .tab1,
+#tab2:checked ~ .navbar__menu > .tab2,
+#tab3:checked ~ .navbar__menu > .tab3 {
+  border: 1px solid var(--anchor-color);
+}
+
+#tab1:checked ~ .wrapper > #thumbnails,
+#tab2:checked ~ .wrapper > #by-graduate,
+#tab3:checked ~ .wrapper > #unknown-graduate{
+  display: block;
+}
+.active {
+  border: 1px solid var(--anchor-color);
+}
+
+
+.menu__item:hover {
+  background-color: var(--black2-color);
+  border: 1px solid var(--anchor-color);
+}
+.thumbnails {
+  width: 330px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  display: grid;
+  list-style: none;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.thumbnails > li {
+  width: 100px;
+  height: 120px;
+  padding-top: 10px;
+  background-color: #ddd;
+  border-radius: 15px;
+  text-align: center;
+  font-size: var(--phone-text-size);
+  user-select: none;
+  /* border: 2px solid #aaa; */
+  /* box-shadow: 0px 0px 2px 1px rgba(0,0,0,.2); */
+}
+.thumbnails > li > img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+/* 썸네일과 이름위에 투명버튼을 만들어 한꺼번에 누르기 편하도록
+투명버튼을 위에 덮어씌워 놓음 */
+.TransparentButton {
+  /* content: ''; */
+  position: relative;
+  top: -110px;
+  width: 100px;
+  height: 120px;
+  border-radius: 15px;
+  background-color: transparent;
+  z-index: 1;
+  transition: .5s;
+}
+
+.TransparentButton:hover {
+  background-color: rgba(112, 53, 109, 0.15);
+  border: 2px solid var(--sub-color);
+}
+
+
+.graduate {
+  margin: 0 auto;
+  width: 350px;
+  list-style: none;
+}
+
+.graduate__list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  user-select: none;
+}
+.graduate__title {
+  width: 70px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 5px;
+  color: var(--main-color);
+  text-align: center;
+}
+
+.graduate__content {
+  width: 330px;
+  
+}

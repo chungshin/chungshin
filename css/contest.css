@@ -1,0 +1,56 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title{
+  z-index: 10;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: var(--text-size);
+  font-weight: 500;
+  user-select: none;
+}
+
+.prize{
+  width: 150px;
+  margin-right: 15px;
+  text-align: right;
+}
+
+.name{
+  width: 70px;
+}
+.contest-image{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  min-height: 420px;
+}
+
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+}
+
+.button{
+  width: 70px;
+  background-color: transparent;
+  border: none;
+  color: var(--main-color);
+  font-size: 30px;
+  cursor: pointer;
+}

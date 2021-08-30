@@ -1,0 +1,198 @@
+{
+"Maria": [
+    {
+        "Prize": "대상",
+        "Nave": "김민영",
+        "url": "images/2019김마리아/2019_1.jpg"
+    },
+    {
+        "Prize": "대상",
+        "Nave": "조유빈",
+        "url": "images/2019김마리아/2019_2.jpg"
+    },
+    {
+        "Prize": "금상",
+        "Nave": "김희주",
+        "url": "images/2019김마리아/2019_3.jpg"
+    },
+    {
+        "Prize": "대상",
+        "Nave": "김다현",
+        "url": "images/2019김마리아/2019_4.jpg"
+    },
+    {
+        "Prize": "금상",
+        "Nave": "이승연",
+        "url": "images/2019김마리아/2019_5.jpg"
+    },
+    {
+        "Prize": "은상",
+        "Nave": "조윤비",
+        "url": "images/2019김마리아/2019_6.jpg"
+    },
+    {
+        "Prize": "은상",
+        "Nave": "김예지",
+        "url": "images/2019김마리아/2019_7.jpg"
+    },
+    {
+        "Prize": "은상",
+        "Nave": "이예나",
+        "url": "images/2019김마리아/2019_8.jpg"
+    },
+    {
+        "Prize": "은상",
+        "Nave": "변선우",
+        "url": "images/2019김마리아/2019_9.jpg"
+    },
+    {
+        "Prize": "은상",
+        "Nave": "최다혜",
+        "url": "images/2019김마리아/2019_10.jpg"
+    },
+    {
+        "Prize": "동상",
+        "Nave": "김소린",
+        "url": "images/2019김마리아/2019_11.jpg"
+    },
+    {
+        "Prize": "동상",
+        "Nave": "최진",
+        "url": "images/2019김마리아/2019_12.jpg"
+    },
+    {
+        "Prize": "동상",
+        "Nave": "박윤희",
+        "url": "images/2019김마리아/2019_13.jpg"
+    },
+    {
+        "Prize": "동상",
+        "Nave": "오윤재",
+        "url": "images/2019김마리아/2019_14.jpg"
+    }
+],
+    "Person": [
+        {
+            "Person": "김마리아 선생님",
+            "Painter": "도유리",
+            "url": "images/2020독립운동가/2020_101.jpg"
+        },
+        {
+            "Person": "김말봉 선생님",
+            "Painter": "김다현",
+            "url": "images/2020독립운동가/2020_102.jpg"
+        },
+        {
+            "Person": "김순애 선생님",
+            "Painter": "정유림",
+            "url": "images/2020독립운동가/2020_103.jpg"
+        },
+        {
+            "Person": "김순애 선생님",
+            "Painter": "정유림",
+            "url": "images/2020독립운동가/2020_104.jpg"
+        },
+        {
+            "Person": "박애순 선생님",
+            "Painter": "오윤서",
+            "url": "images/2020독립운동가/2020_105.jpg"
+        },
+        {
+            "Person": "박애순 선생님",
+            "Painter": "김희주",
+            "url": "images/2020독립운동가/2020_106.jpg"
+        },
+        {
+            "Person": "방순희 선생님",
+            "Painter": "경희상",
+            "url": "images/2020독립운동가/2020_107.jpg"
+        },
+        {
+            "Person": "이정숙 선생님",
+            "Painter": "김나연",
+            "url": "images/2020독립운동가/2020_108.jpg"
+        },
+        {
+            "Person": "이정숙 선생님",
+            "Painter": "최정인",
+            "url": "images/2020독립운동가/2020_109.jpg"
+        },
+        {
+            "Person": "이혜련 선생님",
+            "Painter": "도유리",
+            "url": "images/2020독립운동가/2020_110.jpg"
+        },
+        {
+            "Person": "정선희 선생님",
+            "Painter": "이승연",
+            "url": "images/2020독립운동가/2020_111.jpg"
+        },
+        {
+            "Person": "차경신 선생님",
+            "Painter": "이서연",
+            "url": "images/2020독립운동가/2020_112.jpg"
+        }
+    ],
+    "History": [
+        {
+            "Person": "김현경 선생님 (동상)",
+            "Painter": "김경은",
+            "url": "images/2020창의미술공모전/2020_201.jpg"
+        },
+        {
+            "Person": "김현경 선생님 (대상)",
+            "Painter": "오윤서",
+            "url": "images/2020창의미술공모전/2020_202.jpg"
+        },
+        {
+            "Person": "박애순 선생님 (은상)",
+            "Painter": "김나연",
+            "url": "images/2020창의미술공모전/2020_203.jpg"
+        },
+        {
+            "Person": "박애순 선생님 (은상)",
+            "Painter": "유종은",
+            "url": "images/2020창의미술공모전/2020_204.jpg"
+        },
+        {
+            "Person": "박애순 선생님 (동상)",
+            "Painter": "정수아",
+            "url": "images/2020창의미술공모전/2020_205.jpg"
+        },
+        {
+            "Person": "이아주 선생님 (은상)",
+            "Painter": "고하윤",
+            "url": "images/2020창의미술공모전/2020_206.jpg"
+        },
+        {
+            "Person": "이아주 선생님 (금상)",
+            "Painter": "조수연",
+            "url": "images/2020창의미술공모전/2020_207.jpg"
+        },
+        {
+            "Person": "이아주 선생님 (동상)",
+            "Painter": "최정인",
+            "url": "images/2020창의미술공모전/2020_208.jpg"
+        },
+        {
+            "Person": "이아주 선생님 (동상)",
+            "Painter": "김희주",
+            "url": "images/2020창의미술공모전/2020_209.jpg"
+        },
+        {
+            "Person": "이아주 선생님 (금상)",
+            "Painter": "조윤비",
+            "url": "images/2020창의미술공모전/2020_210.jpg"
+        },
+        {
+            "Person": "채계복 선생님 (금상)",
+            "Painter": "이승연",
+            "url": "images/2020창의미술공모전/2020_211.jpg"
+        },
+        {
+            "Person": "박애순 선생님 (동상)",
+            "Painter": "김한결",
+            "url": "images/2020창의미술공모전/2020_212.jpg"
+        }
+    ]
+}
