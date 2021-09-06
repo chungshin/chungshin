@@ -4,12 +4,16 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 60px;
   width: 80vw;
   height: 90vh;
-  overflow-y: scroll;
+  overflow-y: hidden;
   max-width: 400px;
   font-size: var(--text-size);
+}
+
+.wrapper{
+  margin-top: 60px;
+  overflow-y: scroll;  
 }
 
 .background{
