@@ -6,6 +6,7 @@
   flex-direction: column;
   width: 80vw;
   height: 100vh;
+  overflow-y: auto;
   max-width: 400px;
   font-size: var(--text-size);
 }
