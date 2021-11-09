@@ -57,6 +57,41 @@ body {
   animation: 1.5s linear bgAppear;
 }
 
+
+.popup {
+  z-index: 10;
+  position: absolute;
+  padding: 20px;
+  background-color: rgba(246, 240, 252, 0.705);
+  color: #333;
+  font-size: .85rem;
+  user-select: none;
+  box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.popup-close {
+  display: none;
+}
+
+.close-btn {
+  font-size: 25px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.popup--text {
+  width: 300px;
+  margin: auto 0;
+  text-align: center;
+}
+
+.popup-img {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+
 .main--text {
   position: absolute;
   width: 70%;
