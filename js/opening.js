@@ -3,8 +3,6 @@ const mainText = document.querySelector('.main--text')
 const boldText = document.querySelector('.bold--text');
 const logo = document.querySelector('.logo');
 const background = document.querySelector('.background');
-const closeBtn = document.querySelector('.close-btn');
-const popupWinow = document.querySelector('.popup');
 let clickCount = 0;
 
 mainBtn.addEventListener('click',() => {
@@ -30,6 +28,3 @@ mainBtn.addEventListener('click',() => {
   }
 });
 
-closeBtn.addEventListener('click',()=> {
-  popupWinow.style.display = 'none';
-})
