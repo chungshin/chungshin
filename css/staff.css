@@ -40,7 +40,8 @@ h2 {
 }
 
 .list1,
-.list2{
+.list2,
+.list3{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 12px;
@@ -50,12 +51,7 @@ h2 {
 }
 
 .list3{
-  display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  width: 250px;
-  margin: 0 auto;
-  font-size: var(--text-size);
 }
 
 .list-item{
